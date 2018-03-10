@@ -127,41 +127,56 @@ body{
     -webkit-box-sizing:border-box;
     -moz-box-sizing:border-box;
     box-sizing:border-box;
+    border:1px solid white;
 
 }
 .hoverpersotext{
-	height:60%;
+	height:80%;
 }
 
 .hoverpersolinks{
 	color:yellow;
-	background-color: rgb(32, 197, 87);
-	height:40%;
+    height:20%;
 }
 
-.hoverpersotitle{
-	color:white;
-	background-color: blue;
-
+.hoverpersoproject{
+    color:#ffffff;
+    padding: 5px 5px 0px 5px;
 }
 
-.hoverpersodesc{
-	color:yellow;
-	background-color: pink;
+.hoverpersocustomer{
+    color:#000000;
+    padding: 0px 5px 0px 5px;
 }
 
-.linksleft{
+.hoverpersofunction{
+    color:#f3ca06;
+    padding: 0px 5px 0px 5px;
+}
+
+.linksleftvisible{
 	width:30%;
-	background-color: red;
 	float:left;
 	height:100%;
 }
 
-.linksright{
+.linksrightvisible{
 	width:30%;
-	background-color: blue;
 	float:right;
 	height:100%;
 }
- 
+
+.linksleftvisible img{
+    width:50%;
+}
+
+.linksrightvisible img{
+    width:50%;
+}
+
+.linksrighthidden, .linkslefthidden{
+    display:none;
+}
+
+
  
