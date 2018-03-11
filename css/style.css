@@ -319,18 +319,15 @@ body{
     height:100%;
 }
 
-<<<<<<< HEAD
 
 .linksrighthidden, .linkslefthidden, .linksmiddlehidden, .linksrighthidden2{
     display:none;
-.linksleftvisible{
-	width:33%;
-	float:left;
-    float:right;
-    height:100%;
 }
 
-<<<<<<< HEAD
+.linksleftvisible img{
+    width:50%;
+}
+
 .linksmiddlevisible img{
     width:50%;
 }
