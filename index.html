@@ -1020,26 +1020,27 @@
 								</div>
 							</div>
 							<div class="imagefilmsleft">
-								<img class="fond" src="./pics/Films/zoo-beauvalleft.jpg" /> 
+								<img class="fond" src="./pics/Films/zoo-beauvalleft.jpg" />
 								<div class="overlayspecialbeauval">
 									<div class="overlayspecialleft">
 										<div class="hoverpersotextleft">
 											<div class="hoverpersoprojectleft">
-													Francois Rousselot
+												Francois Rousselot
 											</div>
 											<div class="hoverpersofunctionleft">
-													Mixage - Rec add 
+												Mixage - Rec add
 											</div>
 											<div class="hoverpersocustomerleft">
-													Zoo de Beauval
+												Zoo de Beauval
 											</div>
 											<div class="hoverpersooption">
-													Spectacle d'oiseaux et d'otaries
+												Spectacle d'oiseaux et d'otaries
 											</div>
 										</div>
 										<div class="hoverpersolinks">
 											<div class="linksleftvisible2">
-												<a href="https://soundcloud.com/user1684311/zooparc-de-beauval-les-as-du-ciel-les-faucons?in=user1684311/sets/musiques-diverses-et-vari-es-1" target="_blank">
+												<a href="https://soundcloud.com/user1684311/zooparc-de-beauval-les-as-du-ciel-les-faucons?in=user1684311/sets/musiques-diverses-et-vari-es-1"
+												 target="_blank">
 													<img align="right" src="./pics/icons/iconeplay.png">
 												</a>
 											</div>
@@ -1061,21 +1062,21 @@
 								<img src="./pics/Films/zoo-beauvalright.jpg" />
 							</div>
 							<div class="imagefilmsleft">
-								<img class="fond" src="./pics/Films/zoo-bordeaux-pessacleft.jpg" /> 
+								<img class="fond" src="./pics/Films/zoo-bordeaux-pessacleft.jpg" />
 								<div class="overlayspecialzoobordeaux">
 									<div class="overlayspecialleft">
 										<div class="hoverpersotextleft">
 											<div class="hoverpersoprojectleft">
-													Francois Rousselot
+												Francois Rousselot
 											</div>
 											<div class="hoverpersofunctionleft">
-													Mixage
+												Mixage
 											</div>
 											<div class="hoverpersocustomerleft">
-													Zoo de Bordeaux/Pessac
+												Zoo de Bordeaux/Pessac
 											</div>
 											<div class="hoverpersooption">
-										
+
 											</div>
 										</div>
 										<div class="hoverpersolinks">
@@ -2316,20 +2317,23 @@
 			autoplaySpeed: 2000,
 			swipeToSlide: true,
 			responsive: [{
-
 				breakpoint: 1024,
 				settings: {
 					slidesToShow: 3,
 				}
 			}, {
-
-				breakpoint: 600,
+				breakpoint: 800,
 				settings: {
 					slidesToShow: 2,
 				}
+			},{
+				breakpoint: 600,
+				settings: {
+					slidesToShow: 1,
+					dots:false,
+				}
 			}, {
-
-				breakpoint: 300,
+				breakpoint: 400,
 				settings: "unslick" // destroys slick
 			}]
 		});
@@ -2347,6 +2351,30 @@
 			autoplaySpeed: 2000,
 			swipeToSlide: true,
 			slidesPerRow: 2,
+			responsive: [{
+				breakpoint: 1024,
+				settings: {
+					slidesToShow: 3,
+					slidesToScroll: 3,
+				}			
+}, {
+				breakpoint: 800,
+				settings: {
+					slidesToShow: 2,
+					slidesToScroll: 2,
+				}
+			}, {
+				breakpoint: 400,
+				settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1,
+					dots:false,
+				}
+			}, {
+
+				breakpoint: 300,
+				settings: "unslick" // destroys slick
+			}]
 		});
 
 
