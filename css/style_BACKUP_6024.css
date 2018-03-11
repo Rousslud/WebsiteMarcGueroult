@@ -85,6 +85,12 @@ body{
   width: 100%;
 }
 
+<<<<<<< HEAD
+=======
+.test img{
+    width: 100%;
+}
+>>>>>>> ca1a2d5b44edf23db523c6051248be27f937e998
 
 .slick-prev:before,
 .slick-next:before {
@@ -171,6 +177,7 @@ body{
 .imagefilmsright {
     position:relative;
     display:inline-block;
+<<<<<<< HEAD
 }
 
 .imagefilmsleft {
@@ -185,6 +192,22 @@ body{
 .imagefilmsleft img {
     width: 100%;
 }
+=======
+}
+
+.imagefilmsleft {
+    position:relative;
+    display:inline-block;
+}
+
+.imagefilmsright img {
+    width: 100%;
+  }
+
+.imagefilmsleft img {
+    width: 100%;
+  }
+>>>>>>> ca1a2d5b44edf23db523c6051248be27f937e998
 
 .overlayspecialright, .overlayspecialleft {
     display:none;
@@ -195,9 +218,19 @@ body{
 }
 
 .specialoverlay:hover .overlayspecialleft {
+<<<<<<< HEAD
     width:100%;
     height:100%;
     background-color:rgba(134, 134, 134, 0.75);
+=======
+    width:200%;
+    height:100%;
+    background:url("acadomia.jpg");
+    -webkit-background-size: cover;
+    background-size: cover;
+    /*background:rgba(134, 134, 134, 0.75);*/
+    /*background:rgb(blue);*/
+>>>>>>> ca1a2d5b44edf23db523c6051248be27f937e998
     position:absolute;
     top:0;
     left:0;
@@ -205,16 +238,28 @@ body{
     -webkit-box-sizing:border-box;
     -moz-box-sizing:border-box;
     box-sizing:border-box;
+<<<<<<< HEAD
 }
 
 .specialoverlay:hover .imagefilmsleft .fond {
     opacity: 0.01;
+=======
+    border:1px solid white;
+>>>>>>> ca1a2d5b44edf23db523c6051248be27f937e998
 }
 
 .hoverpersotextleft{
 	height:80%;
 }
 
+<<<<<<< HEAD
+=======
+.hoverpersolinksleft{
+	color:yellow;
+    height:20%;
+}
+
+>>>>>>> ca1a2d5b44edf23db523c6051248be27f937e998
 .hoverpersoprojectleft{
     color:#ffffff;
     padding: 5px 5px 0px 5px;
@@ -235,6 +280,7 @@ body{
     padding: 0px 5px 0px 5px;
 }
 
+<<<<<<< HEAD
 .linksleftvisible2{
 	width:33%;
 	float:left;
@@ -265,6 +311,8 @@ body{
     width:25%;
 }
 
+=======
+>>>>>>> ca1a2d5b44edf23db523c6051248be27f937e998
 /*----------------------------------------------------------SLIDER PART-----------------------------------------*/
 /*----------------------------------------------------------HOVER SETTINGS-----------------------------------------*/
 /*----------------------------------------------------------COMMON FOR ALBUMS AND FILMS-----------------------------------------*/
@@ -309,7 +357,11 @@ body{
 
 .linksmiddlevisible{
     width:33%;
+<<<<<<< HEAD
     float:left;
+=======
+    float:right;
+>>>>>>> ca1a2d5b44edf23db523c6051248be27f937e998
     height:100%;
 }
 
@@ -323,9 +375,16 @@ body{
 
 .linksrighthidden, .linkslefthidden, .linksmiddlehidden, .linksrighthidden2{
     display:none;
+=======
 .linksleftvisible{
 	width:33%;
 	float:left;
+	height:100%;
+>>>>>>> ca1a2d5b44edf23db523c6051248be27f937e998
+}
+
+.linksmiddlevisible{
+    width:33%;
     float:right;
     height:100%;
 }
@@ -391,3 +450,26 @@ body{
     border:1px solid white;
 }
 */
+=======
+.linksrightvisible{
+	width:33%;
+	float:right;
+    height:100%;
+}
+
+.linksrighthidden, .linkslefthidden, .linksmiddlehidden, .linksrighthidden2{
+    display:none;
+}
+
+.linksleftvisible img{
+    width:50%;
+}
+
+.linksmiddlevisible img{
+    width:50%;
+}
+
+.linksrightvisible img{
+    width:50%;
+}
+>>>>>>> ca1a2d5b44edf23db523c6051248be27f937e998
