@@ -253,6 +253,10 @@ body{
     height:100%;
 }
 
+.linksrighthidden2, .linkslefthidden2, .linksmiddlehidden2{
+    display:none;
+}
+
 .linksleftvisible2 img{
     width:25%;
 }
@@ -320,7 +324,7 @@ body{
 }
 
 
-.linksrighthidden, .linkslefthidden, .linksmiddlehidden, .linksrighthidden2{
+.linksrighthidden, .linkslefthidden, .linksmiddlehidden{
     display:none;
 }
 
@@ -370,6 +374,99 @@ body{
     box-sizing:border-box;
     border:1px solid white;
 }
+
+.specialoverlay:hover .overlayspecialacadomia {
+    width:200%;
+    height:100%;
+    background-image: url(../pics/Films/acadomia2.jpg);
+    background-size: cover;
+    position:absolute;
+    top:0;
+    left:0;
+    display:block;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    border:1px solid white;
+}
+
+.specialoverlay:hover .overlayspecialnyc {
+    width:200%;
+    height:100%;
+    background-image: url(../pics/Films/long-live-new-york-zelt-prod.jpg);
+    background-size: cover;
+    position:absolute;
+    top:0;
+    left:0;
+    display:block;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    border:1px solid white;
+}
+
+.specialoverlay:hover .overlayspecialmarineland {
+    width:200%;
+    height:100%;
+    background-image: url(../pics/Films/marineland2.jpg);
+    background-size: cover;
+    position:absolute;
+    top:0;
+    left:0;
+    display:block;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    border:1px solid white;
+}
+
+
+.specialoverlay:hover .overlayspecialhublot {
+    width:200%;
+    height:100%;
+    background-image: url(../pics/Films/mr-hublot-oscar-2014-zelt.jpg);
+    background-size: cover;
+    position:absolute;
+    top:0;
+    left:0;
+    display:block;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    border:1px solid white;
+}
+
+.specialoverlay:hover .overlayspecialbeauval {
+    width:200%;
+    height:100%;
+    background-image: url(../pics/Films/zoo-beauval.jpg);
+    background-size: cover;
+    position:absolute;
+    top:0;
+    left:0;
+    display:block;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    border:1px solid white;
+}
+
+.specialoverlay:hover .overlayspecialzoobordeaux {
+    width:200%;
+    height:100%;
+    background-image: url(../pics/Films/zoo-bordeaux-pessac.jpg);
+    background-size: cover;
+    position:absolute;
+    top:0;
+    left:0;
+    display:block;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    border:1px solid white;
+}
+
+
 
 /* CREER CSS SPECIAL POUR LES HORIZONTAUX : */
 /*
