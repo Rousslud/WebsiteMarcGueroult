@@ -38,7 +38,7 @@ body{
     font-size:1.5em;
 }
 
- .titlerowothermenus{
+.titlerowothermenus{
     background-color: black;
     min-height:90px;
     color:#f3ca06;
@@ -85,9 +85,6 @@ body{
   width: 100%;
 }
 
-.test img{
-    width: 100%;
-}
 
 .slick-prev:before,
 .slick-next:before {
@@ -183,11 +180,11 @@ body{
 
 .imagefilmsright img {
     width: 100%;
-  }
+}
 
 .imagefilmsleft img {
     width: 100%;
-  }
+}
 
 .overlayspecialright, .overlayspecialleft {
     display:none;
@@ -198,13 +195,9 @@ body{
 }
 
 .specialoverlay:hover .overlayspecialleft {
-    width:200%;
+    width:100%;
     height:100%;
-    background:url("acadomia.jpg");
-    -webkit-background-size: cover;
-    background-size: cover;
-    /*background:rgba(134, 134, 134, 0.75);*/
-    /*background:rgb(blue);*/
+    background-color:rgba(134, 134, 134, 0.75);
     position:absolute;
     top:0;
     left:0;
@@ -212,16 +205,14 @@ body{
     -webkit-box-sizing:border-box;
     -moz-box-sizing:border-box;
     box-sizing:border-box;
-    border:1px solid white;
+}
+
+.specialoverlay:hover .imagefilmsleft .fond {
+    opacity: 0.01;
 }
 
 .hoverpersotextleft{
 	height:80%;
-}
-
-.hoverpersolinksleft{
-	color:yellow;
-    height:20%;
 }
 
 .hoverpersoprojectleft{
@@ -242,6 +233,36 @@ body{
 .hoverpersooptionleft{
     color:#ffffff;
     padding: 0px 5px 0px 5px;
+}
+
+.linksleftvisible2{
+	width:33%;
+	float:left;
+	height:100%;
+}
+
+.linksmiddlevisible2{
+    width:33%;
+    float:left;
+    height:100%;
+}
+
+.linksrightvisible2{
+	width:33%;
+	float:right;
+    height:100%;
+}
+
+.linksleftvisible2 img{
+    width:25%;
+}
+
+.linksmiddlevisible2 img{
+    width:25%;
+}
+
+.linksrightvisible2 img{
+    width:25%;
 }
 
 /*----------------------------------------------------------SLIDER PART-----------------------------------------*/
@@ -288,7 +309,7 @@ body{
 
 .linksmiddlevisible{
     width:33%;
-    float:right;
+    float:left;
     height:100%;
 }
 
@@ -298,23 +319,6 @@ body{
     height:100%;
 }
 
-.linksleftvisible{
-	width:33%;
-	float:left;
-	height:100%;
-}
-
-.linksmiddlevisible{
-    width:33%;
-    float:right;
-    height:100%;
-}
-
-.linksrightvisible{
-	width:33%;
-	float:right;
-    height:100%;
-}
 
 .linksrighthidden, .linkslefthidden, .linksmiddlehidden, .linksrighthidden2{
     display:none;
@@ -331,3 +335,56 @@ body{
 .linksrightvisible img{
     width:50%;
 }
+
+
+/*----------------------------------------------------------SLIDER PART-----------------------------------------*/
+/*----------------------------------------------------------HOVER SETTINGS-----------------------------------------*/
+/*----------------------------------------------------------NEED TO CREATE FOR EACH SINGLE IMAGE-----------------------------------------*/
+
+.specialoverlay:hover .overlayspecialacadomia {
+    width:200%;
+    height:100%;
+    background-image: url(../pics/Films/acadomia2.jpg);
+    background-size: cover;
+    position:absolute;
+    top:0;
+    left:0;
+    display:block;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    border:1px solid white;
+}
+
+.specialoverlay:hover .overlayspecialmarineland {
+    width:200%;
+    height:100%;
+    background-image: url(../pics/Films/marineland2.jpg);
+    background-size: cover;
+    position:absolute;
+    top:0;
+    left:0;
+    display:block;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    border:1px solid white;
+}
+
+/* CREER CSS SPECIAL POUR LES HORIZONTAUX : */
+/*
+.specialoverlay:hover .overlayspecialnomduprojet {
+    width:200%;
+    height:100%;
+    background-image: url(../pics/Films/nomdelimagecomplete.extension);
+    background-size: cover;
+    position:absolute;
+    top:0;
+    left:0;
+    display:block;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    border:1px solid white;
+}
+*/
